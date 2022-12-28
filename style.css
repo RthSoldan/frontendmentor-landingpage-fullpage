@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    color: hsl(192, 100%, 9%);
+    
+}
+
+.background {
+    background-color: hsl(193, 100%, 96%); 
+    background-image: url(images/bg-hero-desktop.svg);
+    height: 90vh;
+   
+    
+}
+
+.is-logo {
+   padding: 5vh 0 0 5vw;
+   
+}
+
+.is-logo img {
+    width: 15vw;
+    
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row-reverse;
+   
+    padding: 10vh 5vw 4vh 5vw;
+    
+}
+
+.main-content_illustration img{
+    width: 85vh;
+}
+
+.main-content_information {
+    margin-top: 10vh;
+    
+}
+
+h1 {
+   font-size: 3vw;
+    width: 90%;
+    font-weight: 600;   
+    font-family: Poppins;
+}
+
+p {
+    font-size: 1.1vw;
+    width: 90%;
+    margin: 2.2vh 0px 5vh 0;  
+    font-weight: 400;
+    font-family: Open Sans;
+
+}
+
+a {
+    background-color: hsl(322, 100%, 66%);
+    color: white;
+    padding: 2vh 15vh; 
+    border-radius: 50px;
+    text-decoration: none;
+    filter: drop-shadow(5px 3px 4px #0000008c);
+    font-family: Open Sans;
+
+}
+
+a:hover {
+    background-color: hsl(300, 69%, 71%);
+    color: white;
+}
+
+h2 {
+     font-family: Poppins;
+     font-size: 2vw;  
+     font-weight: 600;    
+}
+
+.boxes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 15vh 0;
+}
+
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 78vw;
+    padding: 4vw 2vw 3vw 8vw;
+    background-color: white;
+    margin: 2vh 0;
+    filter: drop-shadow(0.15px 0.5px 5px #00252e1f);
+    border-radius: 1vw;
+    
+}
+
+.box img {
+    width: 40%;
+    
+}
+
+.box p {
+    font-size: 1.2vw;  
+    color: hsl(208, 11%, 55%);
+    
+}
+
+.box__text {
+    margin-top: 3vh;
+    width: 50%;
+}
+
+.button-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -8vw;
+}
+
+.button_box_div {
+    width: 50vw;
+    background-color: white;
+    text-align: center;
+    filter: drop-shadow(0.15px 0.5px 5px #00252e1f);
+    border-radius: 1vw;
+    padding: 6vh 5vh; 
+    
+}
+
+.button_box_div h1 {
+    font-size: 2vw;
+    width: 100%;
+    
+}
+
+.button_box_div a{
+    display: inline-block;
+    margin-top: 5vh;
+    padding: 4vh 15vh; 
+   
+}
+
+footer {
+    background-color: hsl(192, 100%, 9%);
+    height: 60vh;
+}
